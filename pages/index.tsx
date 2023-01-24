@@ -25,7 +25,7 @@ export default function Home() {
                 automation, continuous integration, cloud migration, and
                 performance optimization.
               </p>
-              <button className="round-none bg-black text-white px-6 py-1">
+              <button className="round-none bg-black text-white px-6 py-3">
                 Contact
               </button>
             </div>
