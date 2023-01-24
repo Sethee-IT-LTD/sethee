@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main>
         <div className="bg-slate-200">
           <section className="container mx-auto px-4">
@@ -33,11 +35,17 @@ export default function Home() {
         </div>
 
         <section className="container mx-auto px-4 my-8">
-          <h3 className="uppercase text-center font-bold text-lg">
-            Trusted by
-          </h3>
-          <p className="text-xl">Bankless DAO</p>
-          <p className="text-xl">Skillweed</p>
+          <div className="grid justify-center">
+            <h3 className="uppercase text-center font-bold text-lg">
+              Trusted by
+            </h3>
+            <Image
+              src="/banklessdao-logo.webp"
+              alt="Bankless DAO logo"
+              width={130}
+              height={130}
+            />
+          </div>
         </section>
       </main>
     </>
