@@ -27,9 +27,19 @@ export default function Home() {
                 automation, continuous integration, cloud migration, and
                 performance optimization.
               </p>
-              <button className="round-none bg-black text-white px-6 py-3">
+              <button
+                className="round-none bg-black text-white px-6 py-3"
+                data-tf-popup="RGxUCMEw"
+                data-tf-opacity="100"
+                data-tf-size="100"
+                data-tf-iframe-props="title=Sethee LLC Contact"
+                data-tf-transitive-search-params
+                data-tf-medium="snippet"
+              >
                 Contact
               </button>
+              {/* Add Script in a better way */}
+              <script src="//embed.typeform.com/next/embed.js"></script>
             </div>
           </section>
         </div>
