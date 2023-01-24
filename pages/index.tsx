@@ -13,13 +13,13 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="bg-slate-200">
+        <div className="bg-green-200">
           <section className="container mx-auto px-4">
             <div className="py-40">
               <h2 className="text-5xl my-5 font-bold">
                 Automating the web frontier.
               </h2>
-              <h3 className="mb-5 font-bold text-xl">
+              <h3 className="mb-5 font-bold text-green-700 text-xl">
                 Secure. Scalable. Resilient.
               </h3>
               <p className="max-w-2xl text-xl mb-5">
@@ -29,7 +29,7 @@ export default function Home() {
                 performance optimization.
               </p>
               <button
-                className="round-none bg-black text-white px-6 py-3"
+                className="round-none bg-green-500 text-white font-bold px-6 py-3"
                 data-tf-popup="RGxUCMEw"
                 data-tf-opacity="100"
                 data-tf-size="100"
