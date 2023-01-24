@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -38,8 +39,7 @@ export default function Home() {
               >
                 Contact
               </button>
-              {/* Add Script in a better way */}
-              <script src="//embed.typeform.com/next/embed.js"></script>
+              <Script src="//embed.typeform.com/next/embed.js" />
             </div>
           </section>
         </div>
