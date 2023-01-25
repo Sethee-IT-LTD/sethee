@@ -4,10 +4,13 @@ function Footer() {
   return (
     <footer className="bg-green-200">
       <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-between">
-          <div className="basic-1/4">Footer</div>
-          <div className="basic-3/4">
-            <p>Email: contact@sethee.com</p>
+        <div className="flex flex-wrap justify-between py-10">
+          <div className="basic-6/12 text-4xl font-bold">
+            Let's automate <br />
+            together.
+          </div>
+          <div className="basic-6/12">
+            <p>Email: hello@sethee.com</p>
             <p>Social Media</p>
           </div>
         </div>
