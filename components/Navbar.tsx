@@ -1,11 +1,17 @@
 import React from "react";
+import Image from "next/image";
 
 function Navbar() {
   return (
     <nav className="bg-black">
       <div className="container py-7">
         <div>
-          <h2 className="text-white text-xl font-bold">Sethee LLC</h2>
+          <Image
+            src="/sethee-logo.svg"
+            alt="Sethee LLC logo"
+            width={191}
+            height={40}
+          />
         </div>
         <div></div>
       </div>
