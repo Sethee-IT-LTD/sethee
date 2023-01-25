@@ -14,6 +14,10 @@ module.exports = {
         monospace: ['var(--font-inconsolata)']
       }
     },
+    container: {
+      padding: '2rem',
+      center: true
+    }
   },
   plugins: [],
 }

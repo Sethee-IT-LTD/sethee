@@ -14,10 +14,10 @@ export default function Home() {
 
       <main>
         <div className="bg-green-200">
-          <section className="container mx-auto px-4">
+          <section className="container">
             <div className="py-40">
               <h2 className="text-5xl my-5 font-bold">
-                Automating the web frontier.
+                Automating the cloud frontier.
               </h2>
               <h3 className="mb-5 font-bold text-green-700 text-xl">
                 Secure. Scalable. Resilient.
@@ -29,7 +29,7 @@ export default function Home() {
                 performance optimization.
               </p>
               <button
-                className="round-none bg-green-500 text-white font-bold px-6 py-3"
+                className="round-none bg-green-700 text-white font-bold px-9 py-3"
                 data-tf-popup="RGxUCMEw"
                 data-tf-opacity="100"
                 data-tf-size="100"
@@ -44,7 +44,7 @@ export default function Home() {
           </section>
         </div>
 
-        <section className="container mx-auto px-4 my-8">
+        <section className="container my-8">
           <div className="grid justify-center">
             <h3 className="uppercase text-center font-bold text-lg">
               Trusted by
